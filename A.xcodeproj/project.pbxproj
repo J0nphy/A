@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,7 @@
 		3B743310236FB8B6002E42A9 /* ATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74330F236FB8B6002E42A9 /* ATests.swift */; };
 		3B74331B236FB8B6002E42A9 /* AUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74331A236FB8B6002E42A9 /* AUITests.swift */; };
 		3B7433AF237027E9002E42A9 /* AViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7433AE237027E9002E42A9 /* AViewController .swift */; };
-		3BC715F723716F68008C5DF4 /* Target_A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC715F623716F68008C5DF4 /* Target_A.swift */; };
+		3BCE471D23828C60002F5326 /* Target_A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCE471C23828C60002F5326 /* Target_A.swift */; };
 		F4E26AD02597B2032AC98F40 /* Pods_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2E06EA65B9CF14C20FAA7D /* Pods_A.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +53,7 @@
 		3B74331A236FB8B6002E42A9 /* AUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUITests.swift; sourceTree = "<group>"; };
 		3B74331C236FB8B6002E42A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B7433AE237027E9002E42A9 /* AViewController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AViewController .swift"; sourceTree = "<group>"; };
-		3BC715F623716F68008C5DF4 /* Target_A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_A.swift; sourceTree = "<group>"; };
+		3BCE471C23828C60002F5326 /* Target_A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_A.swift; sourceTree = "<group>"; };
 		B95FB080AB374DEC6A957853 /* Pods-A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.debug.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.debug.xcconfig"; sourceTree = "<group>"; };
 		BB2E06EA65B9CF14C20FAA7D /* Pods_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E53484F947C9314A3DB703 /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,7 +110,6 @@
 		3B7432F7236FB8B3002E42A9 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				3BC715F523716E80008C5DF4 /* Target_A */,
 				3B7433AB23702176002E42A9 /* A */,
 				3B7432F8236FB8B3002E42A9 /* AppDelegate.swift */,
 				3B7432FA236FB8B3002E42A9 /* SceneDelegate.swift */,
@@ -144,15 +143,16 @@
 		3B7433AB23702176002E42A9 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				3BCE471B23828C60002F5326 /* Target_A */,
 				3B7433AE237027E9002E42A9 /* AViewController .swift */,
 			);
 			path = A;
 			sourceTree = "<group>";
 		};
-		3BC715F523716E80008C5DF4 /* Target_A */ = {
+		3BCE471B23828C60002F5326 /* Target_A */ = {
 			isa = PBXGroup;
 			children = (
-				3BC715F623716F68008C5DF4 /* Target_A.swift */,
+				3BCE471C23828C60002F5326 /* Target_A.swift */,
 			);
 			path = Target_A;
 			sourceTree = "<group>";
@@ -171,7 +171,6 @@
 				B95FB080AB374DEC6A957853 /* Pods-A.debug.xcconfig */,
 				E4E53484F947C9314A3DB703 /* Pods-A.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -350,10 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC715F723716F68008C5DF4 /* Target_A.swift in Sources */,
 				3B7432FD236FB8B3002E42A9 /* ViewController.swift in Sources */,
 				3B7433AF237027E9002E42A9 /* AViewController .swift in Sources */,
 				3B7432F9236FB8B3002E42A9 /* AppDelegate.swift in Sources */,
+				3BCE471D23828C60002F5326 /* Target_A.swift in Sources */,
 				3B7432FB236FB8B3002E42A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
