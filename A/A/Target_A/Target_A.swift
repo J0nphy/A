@@ -8,9 +8,9 @@
 
 import UIKit
 
-class Target_A: NSObject {
+@objc class Target_A: NSObject {
     
-    func Action_viewController(params:Dictionary<String,AnyObject>) -> UIViewController {
+  @objc func Action_viewController(params:Dictionary<String,AnyObject>) -> UIViewController {
         
         let a = UIViewController.init()
         return a

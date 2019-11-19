@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B225ADD2383E76200E96CF2 /* A-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "A-Bridging-Header.h"; sourceTree = "<group>"; };
 		3B7432F5236FB8B3002E42A9 /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7432F8236FB8B3002E42A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B7432FA236FB8B3002E42A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 				3B743301236FB8B5002E42A9 /* Assets.xcassets */,
 				3B743303236FB8B5002E42A9 /* LaunchScreen.storyboard */,
 				3B743306236FB8B5002E42A9 /* Info.plist */,
+				3B225ADD2383E76200E96CF2 /* A-Bridging-Header.h */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -244,6 +246,7 @@
 				TargetAttributes = {
 					3B7432F4236FB8B3002E42A9 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					3B74330A236FB8B6002E42A9 = {
 						CreatedOnToolsVersion = 11.1;
@@ -527,6 +530,7 @@
 			baseConfigurationReference = B95FB080AB374DEC6A957853 /* Pods-A.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = A/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -535,6 +539,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonphy.A;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "A/A-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -545,6 +551,7 @@
 			baseConfigurationReference = E4E53484F947C9314A3DB703 /* Pods-A.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = A/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -553,6 +560,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonphy.A;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "A/A-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
