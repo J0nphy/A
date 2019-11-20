@@ -10,7 +10,7 @@ import UIKit
 
 @objc class Target_A: NSObject {
     
-  @objc func Action_viewController(params:Dictionary<String,AnyObject>) -> UIViewController {
+  @objc func Action_viewController(_ params:Dictionary<String,AnyObject>) -> UIViewController {
         let a = UIViewController.init()
         return a
     }
