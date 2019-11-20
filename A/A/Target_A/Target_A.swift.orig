@@ -1,0 +1,23 @@
+//
+//  Target_A.swift
+//  A
+//
+//  Created by Jonphy on 2019/11/5.
+//  Copyright © 2019 Jonphy. All rights reserved.
+//
+
+import UIKit
+
+@objc class Target_A: NSObject {
+    
+<<<<<<< HEAD:A/A/Target_A/Target_A.swift
+  @objc func Action_viewController(_ params:Dictionary<String,AnyObject>) -> UIViewController {
+=======
+   @objc func Action_viewController(params:Dictionary<String,AnyObject>) -> UIViewController {
+        
+>>>>>>> 05501284a9ec3e857d93554733805de830c6efb3:A/A/Target_A/Target_A.swift
+        let a = UIViewController.init()
+        return a
+    }
+
+}
